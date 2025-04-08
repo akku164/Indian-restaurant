@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food - Indian Restaurant</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
+      color: #333;
+    }
+    header {
+      background-color: #b30000;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #b30000;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .menu-item {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 1rem;
+    }
+    footer {
+      text-align: center;
+      background-color: #b30000;
+      color: white;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Food - Authentic Indian Restaurant</h1>
+    <p>Delicious flavors of India, made with love.</p>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>Welcome to Food – your go-to spot for traditional Indian cuisine. We blend spices and flavors passed down through generations to bring you a truly authentic experience.</p>
+  </section>
+
+  <section>
+    <h2>Menu Highlights</h2>
+    <div class="menu">
+      <div class="menu-item">
+        <h3>Butter Chicken</h3>
+        <p>Creamy tomato gravy with tender chicken.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Paneer Tikka</h3>
+        <p>Grilled paneer cubes marinated in spices.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Biryani</h3>
+        <p>Fragrant rice with spices, herbs, and meat or veggies.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>Visit us at: 123 Curry Street, Spice Town</p>
+    <p>Call: (123) 456-7890</p>
+    <p>Email: contact@foodrestaurant.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Food Restaurant. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
